@@ -1,13 +1,128 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url(./css/nav.css);
+
+:root {
+  --red: hsl(12, 88%, 59%);
+  --darkBlue:  hsl(228, 39%, 23%);
+
+  --grayishBlue: hsl(227, 12%, 61%);
+  --veryDarkBlue: hsl(233, 12%, 13%);
+  --veryPaleRed:  hsl(13, 100%, 96%);
+  --veryLightGray: hsl(0, 0%, 98%);
 }
 
-code {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+ font-family: 'Be Vietnam Pro', sans-serif;
+ background: var(--veryLightGray);
+}
+
+main {
+  padding: 2em 1.25em;
+}
+
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+
+img {
+  width: 100%;
 }
+
+
+
+/*
+
+
+
+Pricing
+  Product
+  About Us
+  Careers
+  Community
+
+  Get Started
+
+  Bring everyone together to build better products.
+
+  Manage makes it simple for software teams to plan day-to-day 
+  tasks while keeping the larger team goals in view.
+
+  Get Started
+
+  What’s different about Manage?
+
+  Manage provides all the functionality your team needs, without 
+  the complexity. Our software is tailor-made for modern digital 
+  product teams. 
+
+  01
+  Track company-wide progress
+  See how your day-to-day tasks fit into the wider vision. Go from 
+  tracking progress at the milestone level all the way done to the 
+  smallest of details. Never lose sight of the bigger picture again.
+
+  02
+  Advanced built-in reports
+  Set internal delivery estimates and track progress toward company 
+  goals. Our customisable dashboard helps you build out the reports 
+  you need to keep key stakeholders informed.
+
+  03
+  Everything you need in one place
+  Stop jumping from one service to another to communicate, store files, 
+  track tasks and share documents. Manage offers an all-in-one team 
+  productivity solution.
+
+  What they’ve said
+
+  Anisha Li
+  “Manage has supercharged our team’s workflow. The ability to maintain 
+  visibility on larger milestones at all times keeps everyone motivated.”
+
+  Ali Bravo
+  “We have been able to cancel so many other subscriptions since using 
+  Manage. There is no more cross-channel confusion and everyone is much 
+  more focused.”
+
+  Richard Watts
+  “Manage allows us to provide structure and process. It keeps us organized 
+  and focused. I can’t stop recommending them to everyone I talk to!”
+
+  Shanai Gough
+  “Their software allows us to track, manage and collaborate on our projects 
+  from anywhere. It keeps the whole team in-sync without being intrusive.”
+
+  Get Started
+
+  Simplify how your team works today.
+  Get Started
+
+  Home
+  Pricing
+  Products
+  About Us
+  Careers
+  Community
+  Privacy Policy
+
+  Updates in your inbox…
+  Go
+
+  Copyright 2020. All Rights Reserved
+
+
+
+
+
+
+
+
+
+*/
