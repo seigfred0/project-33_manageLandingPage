@@ -1,0 +1,18 @@
+.heading {
+    text-align: center;
+
+}
+
+.main-heading {
+    font-size: 2.25rem;
+    margin-bottom: 0.3em;
+}
+
+.text {
+    color: var(--grayishBlue);
+    text-align: center;
+}
+
+.text-main {
+    margin-bottom: 1.8em;
+}

@@ -1,4 +1,5 @@
 @import url(./css/nav.css);
+@import url(./css/hero.css);
 
 :root {
   --red: hsl(12, 88%, 59%);
@@ -35,6 +36,20 @@ img {
   width: 100%;
 }
 
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  background-color: var(--red);
+  color: white;
+  font-weight: 700;
+  padding: 1em 2em;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
 
 
 /*
