@@ -3,6 +3,14 @@
 
 }
 
+.hero-section_image {
+    margin-top: 3.5em;
+}
+
+.btn-container {
+    margin-top: 2em;
+}
+
 .main-heading {
     font-size: 2.25rem;
     margin-bottom: 0.3em;
