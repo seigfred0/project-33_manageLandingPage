@@ -50,5 +50,21 @@ flex-direction: column;
     top: 10rem;
     /* background-color: red; */
     margin-top: 10em;
+   
 }
 
+.swiper-pagination-bullet {
+    background-color: transparent;
+    border: 2px solid var(--red);
+    padding: 0.25em;
+    opacity: 0.4;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--red);
+    opacity: 1;
+}
+
+/* .swiper-pagination-bullet-inactive-opacity {
+    opacity: 0.5;
+} */

@@ -11,6 +11,9 @@ const Testimonial = () => {
         <section className="testimonial-section">
             <h1 className="heading">What they've said</h1>
             <TestimonialCard></TestimonialCard>
+            <div className="btn-container">
+                <button className="btn">Get Started</button>
+            </div>
         </section>
     )
 }

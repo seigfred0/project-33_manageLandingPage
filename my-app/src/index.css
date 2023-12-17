@@ -2,6 +2,7 @@
 @import url(./css/hero.css);
 @import url(./css/usp.css);
 @import url(./css/testimonial.css);
+@import url(./css/footer.css);
 
 :root {
   --red: hsl(12, 88%, 59%);

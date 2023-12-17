@@ -1,0 +1,15 @@
+.cta-section {
+    background-color: var(--red);
+    padding: 5em 1.75em;
+}
+
+.cta-section h1 {
+    color: white;
+    font-size: 2.25rem;
+    text-align: center;
+}
+
+.cta-section .btn {
+    background-color: white;
+    color: var(--red);
+}
