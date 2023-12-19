@@ -4,6 +4,8 @@ import instagram from '../images/icon-instagram.svg';
 import pinterest from '../images/icon-pinterest.svg';
 import twitter from '../images/icon-twitter.svg';
 import youtube from '../images/icon-youtube.svg';
+import footerImg from '../images/logoWhite.svg';
+
 
 
 const FooterSect = () => {
@@ -58,7 +60,11 @@ const Footer = () => {
                     <img src={pinterest} alt='pinterest' />
                     <img src={instagram} alt='instagram' />
                 </div>
-                <div className='footer-social_logo'></div>
+                <div className='footer-social_logo'>
+                    <img src={footerImg} alt='logo'/>
+
+                    <p>Copyright 2020. All Rights Reserved</p>
+                </div>
             </div>
 
         </div>
