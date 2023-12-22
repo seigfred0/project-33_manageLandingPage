@@ -9,7 +9,22 @@ const Navigation = () => {
             <div className='logo-container'>
                 <img src={logo} alt='logo'/>
             </div>
-            <div>
+
+            <div className="nav-links">
+                <ul>
+                    <li>Pricing</li>
+                    <li>Product</li>
+                    <li>About Us</li>
+                    <li>Careers</li>
+                    <li>Community</li>
+                </ul>
+            </div>
+
+            <div className="desktop-only">
+                <button className="btn nav-btn">Get Started</button>
+            </div>
+
+            <div className="mobile-only">
                 <img src={burgerIcon} alt="burger-icon" />
             </div>
         </nav>
