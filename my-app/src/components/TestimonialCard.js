@@ -21,10 +21,11 @@ const TestimonialCard = () => {
     const [slidesPerView, setSlidesPerView] = useState(1);
 
     useEffect(() => {
-
         const windowReSize = () => {
-            if(window.innerWidth >= 400) {
+            if(window.innerWidth >= 1000) {
                 setSlidesPerView(3);
+            } else if (window.innerWidth >= 600) {
+                setSlidesPerView(2);
             } else {
                 setSlidesPerView(1);
             }

@@ -24,3 +24,15 @@
 .text-main {
     margin-bottom: 1.8em;
 }
+
+.hero-section {
+    position: relative;
+}
+
+.background-two {
+    position: absolute;
+    z-index: -10;
+    right: -11em;
+    bottom: -6em;
+    width: 300px;
+}

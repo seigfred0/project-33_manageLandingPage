@@ -28,14 +28,27 @@ body {
 main {
   padding: 2em 1.25em;
 
-  max-width: 375px;
   margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  /* background-image: url(./images/bg-tablet-pattern.svg);
+  background-repeat: no-repeat; */
 }
+
 
 /* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } */
+
+.background-one {
+  position: absolute;
+  z-index: -10;
+  right: -12em;
+  top: -10em;
+  width: 500px;
+}
+
 
 
 img {

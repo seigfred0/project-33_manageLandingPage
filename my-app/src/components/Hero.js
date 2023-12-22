@@ -1,4 +1,5 @@
 import React from "react";
+import backgroundImage from '../images/bg-tablet-pattern.svg';
 import headerImage from '../images/illustration-intro.svg';
 
 const Hero = () => {
@@ -14,6 +15,7 @@ const Hero = () => {
                     <button className="btn">Get Started</button>
                 </div>
             </div>
+                    <img src={backgroundImage} alt="background" className="background-two"/>
         </section>
     );
 };
