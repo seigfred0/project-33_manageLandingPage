@@ -103,7 +103,97 @@ h2 {
   .logo-container {
     height: 30px;
   }
+
+  /* HERO SECTION */
+  .hero-section {
+    max-width: 1000px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: row-reverse;
+
+    margin-top: 5em;
+  }
+
+  .hero-section_image {
+    flex: 1;
+    margin-top: 0;
+  }
+
+  .hero-section_text {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:flex-start;
+
+  }
+
+  .heading, .text {
+    text-align: left;
+    padding-right: 2em;
+  }
+
+  .text-main {
+    max-width: 350px;
+    font-size: 0.85rem;
+    line-height: 1.6em;
+    margin-top: 0.5em;
+  }
+
+  .main-heading {
+    font-size: 2.65rem;
+    margin-top: -1em;
+  }
+
+  .btn-container {
+    margin-top: 0.4em;
+  }
   
+
+  /* USP SECTION */
+  .usp-section {
+    display: flex;
+
+    max-width: 1000px;
+    margin: 8em auto 0 auto;
+  }
+
+  .usp-one {
+    flex: 1;
+  }
+
+  .usp-one h2,
+  .usp-one p {
+    text-align: left;
+    padding-left: 0;
+  }
+
+  .usp-one h2 {
+    max-width: 550px;
+    font-size: 2rem;
+  }
+
+  .usp-one p {
+    max-width: 330px;
+    line-height: 1.75em;
+    font-size: 0.85rem;
+  }
+
+  .usp-two {
+    margin-top: 0;
+    flex: 1;
+  }
+  
+  .advantage {
+    background-color:transparent;
+  }
+
+  .usp-text {
+    padding-left: 5.75em;
+    max-width: 475px;
+  }
+
 }
 
 
