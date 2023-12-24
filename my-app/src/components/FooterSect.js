@@ -21,9 +21,12 @@ const FooterSect = () => {
 const CallToAction = () => {
     return (
         <div className='cta-section'>
-            <h1>Simplify how your team works today.</h1>
-            <div className="btn-container">
-                <button className="btn">Get Started</button>
+            <div className='cta-section-max'>
+
+                <h1>Simplify how your team works today.</h1>
+                <div className="btn-container">
+                    <button className="btn">Get Started</button>
+                </div>
             </div>
         </div>
     )
@@ -33,38 +36,40 @@ const Footer = () => {
     
     return (
         <div className='footer-section'>
-            <div className='footer-email'>
-                <form>
-                    <input type='email' placeholder='Update in your inbox...' />
-                    <button>GO</button>
-                </form>
-            </div>
-            <div className='footer-links'>
-                <ul>
-                    <li>Home</li>
-                    <li>Pricing</li>
-                    <li>Products</li>
-                    <li>About Us</li>
-                </ul>
-                <ul>
-                    <li>Careers</li>
-                    <li>Community</li>
-                    <li>Privacy Policy</li>
-                </ul>
-            </div>
-            <div className='footer-social'>
-                <div className='footer-social_icons'>
-                    <img src={facebook} alt='facebook' />
-                    <img src={youtube} alt='youtube' />
-                    <img src={twitter} alt='twitter' />
-                    <img src={pinterest} alt='pinterest' />
-                    <img src={instagram} alt='instagram' />
+            <div className='footer-section-max'>
+                <div className='footer-email'>
+                    <form>
+                        <input type='email' placeholder='Update in your inbox...' />
+                        <button>GO</button>
+                    </form>
                 </div>
-                <div className='footer-social_logo'>
-                    <img src={footerImg} alt='logo'/>
+                <div className='footer-links'>
+                    <ul>
+                        <li>Home</li>
+                        <li>Pricing</li>
+                        <li>Products</li>
+                        <li>About Us</li>
+                    </ul>
+                    <ul>
+                        <li>Careers</li>
+                        <li>Community</li>
+                        <li>Privacy Policy</li>
+                    </ul>
+                </div>
+                <div className='footer-social'>
+                    <div className='footer-social_icons'>
+                        <img src={facebook} alt='facebook' />
+                        <img src={youtube} alt='youtube' />
+                        <img src={twitter} alt='twitter' />
+                        <img src={pinterest} alt='pinterest' />
+                        <img src={instagram} alt='instagram' />
+                    </div>
+                    <div className='footer-social_logo'>
+                        <img src={footerImg} alt='logo'/>
+                        <p className='mobile-only'>Copyright 2020. All Rights Reserved</p>
+                    </div>
+                </div>
 
-                    <p>Copyright 2020. All Rights Reserved</p>
-                </div>
             </div>
 
         </div>

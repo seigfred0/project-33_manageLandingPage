@@ -83,17 +83,18 @@
 }
 
 /* Socials */
-
-
 .footer-social_icons {
     display: grid;
     grid-template-columns: repeat(5, 30px);
-    justify-content: space-around;
+    justify-content: center;
     /* grid-template-rows: repeat(1, 25px); */
+    justify-items: center;
+    gap: 1em;
 }
 
 .footer-social_icons img{
-    width: 100%;
+    width: 22px;
+    height: 21px;
 }
 
 /* Footer Logo */
