@@ -90,6 +90,12 @@ h2 {
   display: none;
 }
 
+.nav-links {
+  display: none;
+}
+
+
+
 @media (min-width: 900px)  {
   .mobile-only {
     display: none;
@@ -102,6 +108,23 @@ h2 {
 
   .logo-container {
     height: 30px;
+  }
+
+  .nav-links ul {
+    font-size: 0.95rem;
+  }
+
+  .desktop-only .nav-btn {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
+  .logo-container {
+    width: 50%;
+  }
+
+  .logo-container img {
+    width: 175px
   }
 
   /* HERO SECTION */
@@ -118,7 +141,11 @@ h2 {
   .hero-section_image {
     flex: 1;
     margin-top: 0;
+  
+    width: 100%;
   }
+
+
 
   .hero-section_text {
     flex: 1;
@@ -142,7 +169,7 @@ h2 {
   }
 
   .main-heading {
-    font-size: 2.65rem;
+    font-size: 3rem;
     margin-top: -1em;
   }
 
@@ -154,6 +181,7 @@ h2 {
   /* USP SECTION */
   .usp-section {
     display: flex;
+    justify-content: space-between;
 
     max-width: 1200px;
     margin: 8em auto 0 auto;
@@ -161,6 +189,15 @@ h2 {
 
   .usp-one {
     flex: 1;
+  }
+
+  .usp-two {
+    flex: 1.25;
+    margin-top: 1em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: last baseline
   }
 
   .usp-one h2,
@@ -171,19 +208,16 @@ h2 {
 
   .usp-one h2 {
     max-width: 550px;
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   .usp-one p {
-    max-width: 330px;
+    max-width: 370px;
     line-height: 1.75em;
-    font-size: 0.85rem;
+    font-size: 0.95rem;
   }
 
-  .usp-two {
-    margin-top: 0;
-    flex: 1;
-  }
+ 
   
   .advantage {
     background-color:transparent;
@@ -192,6 +226,8 @@ h2 {
   .usp-text {
     padding-left: 5.75em;
     max-width: 475px;
+    padding-right: 0em;
+    font-size: 0.9rem;
   }
 
 

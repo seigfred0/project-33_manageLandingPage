@@ -10,7 +10,7 @@ const Navigation = () => {
                 <img src={logo} alt='logo'/>
             </div>
 
-            <div className="nav-links">
+            <div className="nav-links desktop-only">
                 <ul>
                     <li>Pricing</li>
                     <li>Product</li>
