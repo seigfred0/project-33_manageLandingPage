@@ -68,6 +68,14 @@ img {
   border: none;
   border-radius: 25px;
   cursor: pointer;
+
+  box-shadow: 0px 5px 2px rgba(0, 0, 0, 0.1);
+
+}
+
+.btn:hover {
+  filter:opacity(0.7)
+
 }
 
 
@@ -97,6 +105,22 @@ h2 {
 
 
 @media (min-width: 900px)  {
+  .background-one {
+    position: absolute;
+    z-index: -10;
+    right: -9em;
+    top: -14em;
+    width: 850px;
+  }
+
+  .background-two.desktop-only {
+    position: absolute;
+    z-index: -10;
+    left: -30em;
+    bottom: 15em;
+    width: 850px;
+  }
+
   .mobile-only {
     display: none;
   }
@@ -247,7 +271,7 @@ h2 {
   }
 
   .testimonial-section h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 1.5em;
     padding-right: 0;
   }
@@ -263,6 +287,28 @@ h2 {
   
     max-width: 1200px;
     margin: 0em auto 0 auto;
+  }
+
+  .cta-section-max h1 {
+    font-size: 2.75rem;
+    max-width: 550px;
+    text-align: left;
+  }
+
+  .cta-section .btn-container {
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+
+  }
+
+  .cta-section .btn {
+    background-color: white;
+    color: var(--red);
+    height: 55px;
+    padding-left: 3em;
+    padding-right: 3em;
+    font-size: 1rem;
   }
 
 
@@ -329,20 +375,24 @@ h2 {
   gap: 1.5em;
  }
 
+ .footer-email {
+  width: 300px;
+ }
  
  .footer-links ul li{
   vertical-align: top;
   line-height: 1;
  }
 
+ 
  .footer-email form input {
-  width: 70%;
+  width: 90%;
  }
 
  .footer-email form button {
   flex: 0.3;
   width: 30%;
-}
+ }
 
 }
 

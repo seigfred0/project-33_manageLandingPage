@@ -15,6 +15,7 @@ function App() {
         </Nav>
           <img src={backgroundImage} alt='background' className='background-one'/>
         <Hero></Hero>   
+        <img src={backgroundImage} alt="background" className="background-two desktop-only"/>
         <Usp></Usp>     
         <Testimonial></Testimonial>
       </main>

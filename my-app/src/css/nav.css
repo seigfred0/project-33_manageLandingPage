@@ -30,6 +30,11 @@ nav {
 .nav-links ul li {
     cursor: pointer;
     
+}   
+
+.nav-links ul li:hover {
+    color: rgb(194, 194, 194);
+    
 }
 
 .desktop-only .nav-btn {

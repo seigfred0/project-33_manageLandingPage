@@ -15,7 +15,8 @@ const Hero = () => {
                     <button className="btn">Get Started</button>
                 </div>
             </div>
-            <img src={backgroundImage} alt="background" className="background-two"/>
+            <img src={backgroundImage} alt="background" className="background-two mobile-only"/>
+            {/* <img src={backgroundImage} alt="background" className="background-two desktop-only"/> */}
         </section>
     );
 };
